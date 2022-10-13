@@ -1,0 +1,26 @@
+<div fxLayout="column">
+  <div>
+    <h1>Buscador de rectas</h1>
+    <mat-divider></mat-divider>
+  </div>
+</div>
+<h3>Buscador</h3>
+
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Buscar...</mat-label>
+    <input type="search"
+
+           aria-label=""
+           matInput
+           [(ngModel)]="termino"
+           [matAutocomplete]="auto"
+           (input)="buscando(termino)">
+
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let recetas of recetas" [value]="recetas">
+        {{recetas.receta}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+

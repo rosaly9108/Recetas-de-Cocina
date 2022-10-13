@@ -1,0 +1,37 @@
+<mat-grid-list cols="1" *ngIf="!receta; else divReceta">
+  <mat-grid-tile>
+    <mat-spinner>
+
+    </mat-spinner>
+  </mat-grid-tile>
+</mat-grid-list>
+<ng-template #divReceta>
+<div fxLayout="row"
+fxLayout.xs="column"
+fxLayoutGap="30px"
+>
+<div fxFlex="50">
+  <h1>{{receta.receta}}</h1><strong>{{receta.ingredientes}}</strong>
+  <mat-divider></mat-divider>
+  <br>
+  <img  src={{receta.img}}>
+</div>
+<div fxFlex="50">
+  <br>
+  <br><br><br>
+  <h1>Preparacion:</h1>
+  <h3>{{receta.preparacion}}</h3>
+  <mat-divider></mat-divider>
+  <mat-list>
+  <mat-list-item><strong>Comensales: </strong>  {{ receta.comensales }}</mat-list-item>
+  <mat-list-item><strong>Duracion:</strong>  {{ receta.duracion}}</mat-list-item>
+</mat-list>
+<br>
+<button mat-raised-button color="primary" (click)="regresar()">Regresar
+
+</button>
+</div>
+
+</div>
+</ng-template>
+

@@ -1,0 +1,70 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Rosaly Suarez",
+      "email": "rosaly@gmail.com"
+    },
+    {
+      "id": 2,
+      "usuario": "Roxy Suarez",
+      "email": "roxy@gmail.com"
+    }
+  ],
+  "recertas": [
+    {
+      "id": "tacos",
+      "receta": "Tacos con pollo",
+      "preparacion": "Para empezar con la receta de tacos de tinga de pollo, primero pon a cocer la pechuga de pollo, esta puede ser con o sin piel dependiendo de tu gusto. Cocina en una olla con suficiente agua y sal, puedes usar una olla normal y cocinar durante unos 40 minutos. También puedes usar una olla de presión y cocinar por 20-25 minutos. También puedes agregar algunas especias, como clavo de olor o unas hojitas de laurel",
+      "ingredientes": "pechuga de pollo, 1 kilogramo de tortillas de maíz",
+      "comensales": 6,
+      "duracion": "1h 30m",
+      "img": "https://redaccionaltagracia.com.ar/wp-content/uploads/2020/01/tacos-de-pollo-900x506.jpg"
+    },
+    {
+      "id": "sufleQueso",
+      "receta": "Suflé de queso",
+      "preparacion": "En una sartén calentamos la mantequilla hasta que se derrita. Cuando la mantequilla esté caliente añadimos la harina y removemos sin parar hasta que se haya integrado con la grasa de la mantequilla.",
+      "ingredientes": "5 huevos, 30 g. de mantequilla, 30 g. de harina de trigo, 250 ml. de leche",
+      "comensales": "4",
+      "duracion": "45min",
+      "img": "https://www.lacasadelqueso.com.ar/wp-content/uploads/2017/10/Souffle.de_.Quesos-768x576.jpg"
+    },
+    {
+      "id": "FlanCafe",
+      "receta": "Flan de café",
+      "preparacion": "En un recipiente bien profundo vamos a batir, con la ayuda de una batidora, los huevos y el azúcar. Hasta que queden bien integrados y adquieran un tono claro.",
+      "ingredientes": "5 huevos, 30 g. de mantequilla, 30 g. de harina de trigo, 250 ml. de leche",
+      "comensales": "8",
+      "duracion": "45min",
+      "img": "https://www.recetasderechupete.com/wp-content/uploads/2015/09/Flan-de-caf%C3%A9.jpg"
+    },
+    {
+      "id": "pizza",
+      "receta": "Pizza",
+      "preparacion": "Para ello, lo primero que vamos a hacer es mezclar en un recipiente el agua templada con la levadura fresca. Para elaborar una masa para pizza casera fácilmente puedes utilizar este tipo de levadura o hacer una masa de pizza con levadura seca, ambas son válidas. En el caso de que prefieras la seca, deberás mezclarla con la harina y si, por el contrario, prefieres la fresca, es fundamental mezclarla con agua tibia. La levadura fresca es aquella que se vende en bloque y se tiene que conservar en el frigorífico.",
+      "ingredientes": " 1 kilogramo de harina, 2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca",
+      "comensales": "4",
+      "duracion": "1h 30m",
+      "img": "https://laverdadnoticias.com/__export/1588095407921/sites/laverdad/img/2020/04/28/receta_pizza.jpg_1834093470.jpg"
+    },
+    {
+      "id": "arrozLeche",
+      "receta": "Arroz con Leche",
+      "preparacion": "Vamos a comenzar nuestra preparación de arroz con leche enfocándonos en el primer ingrediente: vamos a cocer la taza de arroz con dos tazas de agua, con la rama de canela y una pizca de sal. Lo dejamos hervir a fuego medio.",
+      "ingredientes": "1 leche, 150g azucar, 250g arroz, vainilla",
+      "comensales": "4",
+      "duracion": "1h",
+      "img": "https://tse4.mm.bing.net/th?id=OIP.t6iNv8JLR2jjIioYMtVtFQHaE8&pid=Api&P=0"
+    },
+    {
+      "id": "arrozLeche",
+      "receta": "Arroz con Leche",
+      "preparacion": "Vamos a comenzar nuestra preparación de arroz con leche enfocándonos en el primer ingrediente: vamos a cocer la taza de arroz con dos tazas de agua, con la rama de canela y una pizca de sal. Lo dejamos hervir a fuego medio.",
+      "ingredientes": "1 leche, 150g azucar, 250g arroz, vainilla",
+      "comensales": "4",
+      "duracion": "1h",
+      "img": "https://tse4.mm.bing.net/th?id=OIP.t6iNv8JLR2jjIioYMtVtFQHaE8&pid=Api&P=0"
+    }
+  ]
+}

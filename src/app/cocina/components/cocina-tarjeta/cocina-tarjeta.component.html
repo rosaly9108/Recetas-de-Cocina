@@ -1,0 +1,23 @@
+
+<mat-card #sidenav>
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{receta.receta}}</mat-card-title>
+    <mat-card-subtitle>{{receta.ingredientes}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src={{receta.img}}><!--  src="assets/cocina/{{cocina.id}}.jpg"  [src]="receta | imagen"-->
+  <mat-card-content>
+    <p>
+      {{receta.preparacion}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <small><mat-icon>
+      groups</mat-icon><samp></samp><strong>{{receta.comensales}} <mat-icon>
+        schedule</mat-icon> {{receta.duracion}}</strong></small>
+        <button mat-raised-button color="primary" [routerLink]="['/cocina/recetas', receta.id]">Leer...</button>
+        <button mat-raised-button color="primary" [routerLink]="['/cocina/editar', receta.id]">Editar</button>
+
+  </mat-card-actions>
+</mat-card>
+
